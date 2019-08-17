@@ -1,1 +1,24 @@
 <!DOCTYPE html>
+<html>
+  <head>
+    <title>Shadowsocksr</title>
+  </head>
+  <body>
+    <h1>Shadowsocksr搭建使用教程</h1>
+    <h3>服务器端，以ubuntu 为例</h3>
+    <p>进入root账号</p>
+    <code>sudo su</code>
+    <code>cd ~</code>
+    <p>更新软件源</p>
+    <code>apt-get update</code>
+    <p>安装python<p>
+    <code>apt-get install python-pip</code>
+    <p>安装git</p>
+    <code>apt-get install git</code>
+    <p>下载Shadowsocksr，这里注意不要安装来源不明的软件，有的有后门，可能会被做成肉鸡</p>
+    <code>git clone -b manyuser https://github.com/shadowsocksr-backup/shadowsocksr.git</code>
+    <p>初始化</p>
+    <code>cd ~/shadowsocksr
+    bash initcfg.sh</code>
+  </body>
+</html>
