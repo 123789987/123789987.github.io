@@ -18,7 +18,29 @@
     <p>下载Shadowsocksr，这里注意不要安装来源不明的软件，有的有后门，可能会被做成肉鸡</p>
     <code>git clone -b manyuser https://github.com/shadowsocksr-backup/shadowsocksr.git</code>
     <p>初始化</p>
-    <code>cd ~/shadowsocksr
-    bash initcfg.sh</code>
+    <code>cd ~/shadowsocksr<br />bash initcfg.sh</code>
+    <p>此时生成一个user-config.json文件，编辑这个配置文件</p>
+    <code>vim user-config.json</code>
+    <p>输入i进入编辑模式<br />
+    其中，<br />
+    server_port是服务端对客户端开的端口，默认是8388<br />
+    password是密码，默认是m<br />
+    method对应客户端的加密<br />
+    protocol对应客户端的协议<br />
+    protocol_param对应协议参数<br />
+    obfs对应客户端的混淆，建议是plain或者是http_simple，被墙的几率小些<br />
+    obfs_param对应混淆参数</p>
+    <p>如果想让一个服务器的多个端口针对不同用户服务，可以这么修改文件：<br />
+      先去掉server_port和password两行<br />
+      再在password那一行输入：（字符不要错，逗号不能多，不能少）
+      <code>
+      "port_password" : {<br />
+        "8388" : "m",<br />
+        "8389" : "m"<br />
+        },</code>
+    </p>
+    <p>编辑完后保存退出，接着启动服务</p>
+    <code>cd shadowsocks<br />python server.py -d start</code>
+    <p>停止服务<br /><code>python server.py -d stop</code><br />重启服务<code>python server.py -d restart</code></p>
   </body>
 </html>
