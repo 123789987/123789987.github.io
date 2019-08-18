@@ -31,20 +31,19 @@
     <code>
       quit
     </code>
-    <p>测试一下，输入：
-      <code>
-        mysql -uroot -p
-      </code>
-      会出现输入密码的提示，输入刚才的密码，回车，输入下面的命令测试一下：
-      <code>
-        show databases;
-      </code>
-      无误后
-      <code>
-        quit
-      </code>
-      退出
-    </p>
+    <p>测试一下，输入：</p>
+    <code>
+      mysql -uroot -p
+    </code>
+    <p>会出现输入密码的提示，输入刚才的密码，回车，输入下面的命令测试一下：</p>
+    <code>
+      show databases;
+    </code>
+    <p>无误后</p>
+    <code>
+      quit
+    </code>
+    <p>退出</p>
     <h3>进入目录，修改php配置文件php.ini</h3>
     <code>
       cd /etc/php/7.3/fpm<br />
@@ -67,10 +66,10 @@
     </code>
     <p>输入以下内容</p>
     <code>
-&lt;?php
-phpinfo();
-$sql = mysqli_connect('localhost', 'root', 'password');
-if(!$sql) echo "fail\n"; else echo "ok\n";
+&lt;?php<br />
+phpinfo();<br />
+$sql = mysqli_connect('localhost', 'root', 'password');<br />
+if(!$sql) echo "fail\n"; else echo "ok\n";<br />
 ?&gt;
     </code>
     <p>运行一下该文件（输入下面的命令），会出现phpinfo以及最后一行的ok，证明php成功连接mysql数据库，否则有错误</p>
@@ -91,13 +90,13 @@ if(!$sql) echo "fail\n"; else echo "ok\n";
             fastcgi_index index.php;<br />
             fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;<br />
             include fastcgi_params;<br />
-    }<br />
+    }
     </code>
     <p>找到location ~ /\.ht 取消注释把{}里的内容改成：</p>
     <code>
     location ~ /\.ht {<br />
         deny all;<br />
-    }<br />
+    }
     </code>
     <h3>启动服务</h3>
     <code>
