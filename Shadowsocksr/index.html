@@ -47,29 +47,26 @@
       如果想让一个服务器的多个端口针对不同用户服务，可以这么修改文件：<br />
       先去掉server_port和password两行<br />
       再在原来password那一行输入：（字符不要错，逗号不能多，不能少）
-      <code>
-      "port_password" : {<br />
-        "8388" : "m",<br />
-        "8389" : "m"<br />
-        },
-      </code>
     </p>
+    <code>
+    "port_password" : {<br />
+      "8388" : "m",<br />
+      "8389" : "m"<br />
+      },
+    </code>
     <p>编辑完后保存退出，接着启动服务</p>
     <code>
       cd shadowsocks<br />
       python server.py -d start
     </code>
-    <p>
-      停止服务<br />
-      <code>
-        python server.py -d stop
-      </code>
-      <br />
-      重启服务
-      <code>
-        python server.py -d restart
-      </code>
-    </p>
+    <p>停止服务</p>
+    <code>
+      python server.py -d stop
+    </code>
+    <p>重启服务</p>
+    <code>
+      python server.py -d restart
+    </code>
     <h3>windwos客户端</h3>
     <p>下载地址（同样注意软件来源）<a href="https://github.com/shadowsocksrr/shadowsocksr-csharp/releases/download/4.9.0/ShadowsocksR-win-4.9.0.zip" download="ShadowsocksR-win-4.9.0.zip">https://github.com/shadowsocksrr/shadowsocksr-csharp/releases/download/4.9.0/ShadowsocksR-win-4.9.0.zip</a></p>
     <p>pac.txt文件<a href="https://123789987.github.io/Shadowsocksr/pac.txt" download="pac.txt">下载</a></p>
