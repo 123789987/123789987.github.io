@@ -1,0 +1,100 @@
+# microsoft visual c++ redistributable
+https://aka.ms/vs/16/release/vc_redist.x64.exe
+https://aka.ms/vs/16/release/vc_redist.x86.exe
+https://aka.ms/highdpimfc2013x64enu
+https://aka.ms/highdpimfc2013x86enu
+
+# 7-zip
+https://www.7-zip.org/a/7z1900-x64.exe
+
+# notepad++
+https://notepad-plus-plus.org/repository/7.x/7.7.1/npp.7.7.1.Installer.x64.exe
+https://notepad-plus-plus.org/repository/7.x/7.7.1/npp.7.7.1.bin.x64.zip
+
+# shadowsocksr
+https://github.com/shadowsocksrr/shadowsocksr-csharp/releases/download/4.9.0/ShadowsocksR-win-4.9.0.zip
+https://github.com/shadowsocksrr/shadowsocksr-android/releases/download/3.5.4/shadowsocksr-android-3.5.4.apk
+
+# putty
+https://the.earth.li/~sgtatham/putty/latest/w64/putty-64bit-0.72-installer.msi
+https://the.earth.li/~sgtatham/putty/latest/w64/putty.zip
+https://the.earth.li/~sgtatham/putty/latest/w64/putty.exe
+https://the.earth.li/~sgtatham/putty/latest/w64/pscp.exe
+https://the.earth.li/~sgtatham/putty/latest/w64/psftp.exe
+https://the.earth.li/~sgtatham/putty/latest/w64/puttytel.exe
+https://the.earth.li/~sgtatham/putty/latest/w64/plink.exe
+https://the.earth.li/~sgtatham/putty/latest/w64/pageant.exe
+https://the.earth.li/~sgtatham/putty/latest/w64/puttygen.exe
+https://the.earth.li/~sgtatham/putty/latest/putty.chm
+
+# php
+https://windows.php.net/downloads/releases/latest/php-7.3-Win32-VC15-x64-latest.zip
+https://windows.php.net/downloads/releases/latest/php-7.3-nts-Win32-VC15-x86-latest.zip
+
+# python
+https://www.python.org/ftp/python/3.7.4/python-3.7.4-amd64.exe
+https://www.python.org/ftp/python/2.7.16/python-2.7.16.amd64.msi
+C:\Windwos\py.exe
+C:\Windows\pyshellext.amd64.dll
+C:\Windows\pyw.exe
+C:\Windows\System32\python27.dll
+
+# java
+https://download.oracle.com/otn-pub/java/jdk/12.0.2+10/e482c34c86bd4bf8b56c0b35558996b9/jdk-12.0.2_windows-x64_bin.zip?AuthParam=1564881740_9cddf2ec6721f3beb06b82b533435560
+https://sdlc-esd.oracle.com/ESD6/JSCDL/jdk/8u221-b11/230deb18db3e4014bb8e3e8324f81b43/jre-8u221-windows-i586.exe?GroupName=JSC&FilePath=/ESD6/JSCDL/jdk/8u221-b11/230deb18db3e4014bb8e3e8324f81b43/jre-8u221-windows-i586.exe&BHost=javadl.sun.com&File=jre-8u221-windows-i586.exe&AuthParam=1564707498_58c75f5de7625696134e43b3a0fd9bcb&ext=.exe
+https://sdlc-esd.oracle.com/ESD6/JSCDL/jdk/8u221-b11/230deb18db3e4014bb8e3e8324f81b43/JavaSetup8u221.exe?GroupName=JSC&FilePath=/ESD6/JSCDL/jdk/8u221-b11/230deb18db3e4014bb8e3e8324f81b43/JavaSetup8u221.exe&BHost=javadl.sun.com&File=JavaSetup8u221.exe&AuthParam=1564707471_1ae618806a750733f30498b967fe1619&ext=.exe
+
+# mingw
+https://mirrors.gigenet.com/OSDN//mingw/68260/mingw-get-setup.exe
+https://astuteinternet.dl.sourceforge.net/project/mingw-w64/Toolchains%20targetting%20Win32/Personal%20Builds/mingw-builds/installer/mingw-w64-install.exe
+https://cfhcable.dl.sourceforge.net/project/mingw-w64/Toolchains%20targetting%20Win64/Personal%20Builds/mingw-builds/8.1.0/threads-posix/seh/x86_64-8.1.0-release-posix-seh-rt_v6-rev0.7z
+https://managedway.dl.sourceforge.net/project/mingw-w64/Toolchains%20targetting%20Win64/Personal%20Builds/mingw-builds/8.1.0/threads-posix/sjlj/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0.7z
+
+# mysql
+https://dev.mysql.com/get/Downloads/MySQL-8.0/mysql-8.0.17-winx64.zip
+
+# nginx
+http://nginx.org/download/nginx-1.16.1.zip
+http://redmine.lighttpd.net/attachments/download/660/RunHiddenConsole.zip
+
+# apache24
+http://www.apachehaus.com/downloads/httpd-2.4.39-o111c-x64-vc15.zip
+
+# chrome
+https://dl.google.com/chrome/install/375.126/chrome_installer.exe
+https://dl.google.com/tag/s/appguid%3D%7B8A69D345-D564-463C-AFF1-A69D9E530F96%7D%26browser%3D0%26usagestats%3D1%26appname%3DGoogle%2520Chrome%26needsadmin%3Dprefers%26brand%3DGTPM/update2/installers/ChromeSetup.exe
+https://dl.google.com/tag/s/appguid%3D%7B8A69D345-D564-463C-AFF1-A69D9E530F96%7D%26iid%3D%7B63A84415-5660-16E0-E47D-BD0F69351A65%7D%26lang%3Dzh-CN%26browser%3D4%26usagestats%3D1%26appname%3DGoogle%2520Chrome%26needsadmin%3Dprefers%26ap%3Dx64-stable-statsdef_1%26installdataindex%3Dempty/update2/installers/ChromeSetup.exe
+https://dl.google.com/release2/chrome/AJ6iWWIcyh9Y_75.0.3770.142/75.0.3770.142_chrome_installer.exe
+https://dl.google.com/tag/s/appguid%3D%7B8A69D345-D564-463C-AFF1-A69D9E530F96%7D%26iid%3D%7BDB3F1F75-B203-0965-C2E0-AC8D9DD4E75A%7D%26lang%3Dzh-CN%26browser%3D4%26usagestats%3D1%26appname%3DGoogle%2520Chrome%26needsadmin%3Dprefers%26ap%3Dx64-stable-statsdef_1%26installdataindex%3Dempty/chrome/install/ChromeStandaloneSetup64.exe
+
+# firefox
+https://cdn.stubdownloader.services.mozilla.com/builds/firefox-stub/en-US/win/dcb626f662e02247930c66fdd0e856a5fbc837108ea354e5d67e6ad4240dee6b/Firefox%20Installer.exe
+
+# tails
+https://ftp.halifax.rwth-aachen.de/tails/stable/tails-amd64-3.15/tails-amd64-3.15.img
+https://tails.boum.org/etcher/Etcher-Portable.exe
+
+# tor browser
+https://www.torproject.org/dist/torbrowser/8.5.4/torbrowser-install-win64-8.5.4_en-US.exe
+https://dist.torproject.org/torbrowser/8.5.4/torbrowser-install-win64-8.5.4_en-US.exe
+
+# wordpress
+https://wordpress.org/latest.zip
+
+# realvnc
+https://www.realvnc.com/download/file/vnc.files/VNC-Server-6.5.0-Windows.exe
+https://www.realvnc.com/download/file/viewer.files/VNC-Viewer-6.19.715-Windows.exe
+
+# google web designer
+https://dl.google.com/tag/s/appguid%3D%7B811767F4-C586-4673-A41F-E9D767497222%7D%26iid%3D%7BE80D9CCB-47BD-39D0-C34E-16A11E019212%7D%26lang%3Den%26browser%3D4%26usagestats%3D0%26appname%3DGoogle%2520Web%2520Designer%26needsadmin%3DTrue/webdesigner/win/shell/googlewebdesigner_win.exe
+
+# WebMatrixWeb
+https://go.microsoft.com/fwlink/?LinkID=286266
+https://webpihandler.azurewebsites.net/web/handlers/webpi.ashx/getinstaller/WebMatrixWeb.appids
+
+# fiddler site:telerik.com
+https://telerik-fiddler.s3.amazonaws.com/fiddler/FiddlerSetup.exe
+
+# android
+https://cloud.bluestacks.com/api/getdownloadnow?platform=win&win_version=10&client_uuid=d55fe837-4365-4486-b5d5-bfee586aaaa6&app_pkg=&platform_cloud=%257B%2522description%2522%253A%2522Chrome%252076.0.3809.87%2520on%2520Windows%252010%252064-bit%2522%252C%2522layout%2522%253A%2522Blink%2522%252C%2522manufacturer%2522%253Anull%252C%2522name%2522%253A%2522Chrome%2522%252C%2522prerelease%2522%253Anull%252C%2522product%2522%253Anull%252C%2522ua%2522%253A%2522Mozilla%252F5.0%2520(Windows%2520NT%252010.0%253B%2520Win64%253B%2520x64)%2520AppleWebKit%252F537.36%2520(KHTML%252C%2520like%2520Gecko)%2520Chrome%252F76.0.3809.87%2520Safari%252F537.36%2522%252C%2522version%2522%253A%252276.0.3809.87%2522%252C%2522os%2522%253A%257B%2522architecture%2522%253A64%252C%2522family%2522%253A%2522Windows%2522%252C%2522version%2522%253A%252210%2522%257D%257D&preferred_lang=undefined&utm_source=&utm_medium=&gaCookie=&gclid=&clickid=&msclkid=&affiliateId=&offerId=&transaction_id=&aff_sub=&first_landing_page=&referrer=&download_page_referrer=&utm_campaign=homepage-dl-button-en&exit_utm_campaign=homepage-dl-button-en
+Virtualbox
