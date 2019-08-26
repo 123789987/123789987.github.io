@@ -4,7 +4,8 @@
     <title>install nginx php7 mysql server in ubuntu</title>
   </head>
   <body>
-    <h1>install nginx php7 mysql server in ubuntu</h1>
+    <h1>搭建暗网网站，并且获取暗网.onion域名</h1>
+    <p>原理就是用nginx可以借助php运行php代码生成网页，php可以通过代码连接mysql数据库，最后让nginx在8080端口工作，tor在80端口向8080端口转发请求</p>
     <p>获取root权限，进入/root目录</p>
     <code>
       sudo su<br />
@@ -81,9 +82,12 @@ if(!$sql) echo "fail\n"; else echo "ok\n";<br />
       cd /etc/nginx/sites-available<br />
       vim default
     </code>
+    <p>找到listen 80 default_server;改成</p>
+    <code>
+      listen 8080 default_server;
+    </code>
     <p>找到location ~ \.php$ 先取消掉注释把{}里的内容改成：</p>
     <code>
-    listen 8080 default_server;
     location ~ \.php$ {<br />
             try_files $uri =404;<br />
             fastcgi_split_path_info ^(.+\.php)(/.+)$;<br />
@@ -101,13 +105,13 @@ if(!$sql) echo "fail\n"; else echo "ok\n";<br />
     </code>
     <h3>配置tor文件</h3>
     <code>
-    cd /etc/tor<br />
-    vim torrc
+      cd /etc/tor<br />
+      vim torrc
     </code>
     <p>找到相关代码，取消注释，修改成：</p>
     <code>
-    HiddenServiceDir /var/lib/tor/other_hidden_service/<br />
-    HiddenServicePort 80 127.0.0.1:8080
+      HiddenServiceDir /var/lib/tor/hidden_service/<br />
+      HiddenServicePort 80 127.0.0.1:8080
     </code>
     <h3>启动服务</h3>
     <code>
@@ -118,7 +122,7 @@ if(!$sql) echo "fail\n"; else echo "ok\n";<br />
       service tor start<br />
       service tor restart
     </code>
-    <p>域名：</p>
+    <p>此时才会分配一个暗网.onion域名，域名：</p>
     <code>
       cd /var/lib/tor/hidden_service<br />
       cat hostname
