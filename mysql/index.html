@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>mysql</title>
+  </head>
+  <body>
+    <div class="header">
+      <h1>mysql在Windows安装</h1>
+    </div>
+    <div class="main">
+      <h2>Download</h2>
+      <a href="https://dev.mysql.com/get/Downloads/MySQL-8.0/mysql-8.0.17-winx64.zip">https://dev.mysql.com/get/Downloads/MySQL-8.0/mysql-8.0.17-winx64.zip</a>
+      <h2>初始化</h2>
+      <p>
+        cd到相应根目录下的bin目录，或者将bin目录加入环境变量
+        <code>
+            # 会输出密码
+            mysqld --initialize --console
+            # 可以没有密码登录
+            mysqld --initialize-insecure            
+        </code>
+      </p>
+      <h2>安装</h2>
+      <code>
+        mysld -install
+      </code>
+      <h2>启动</h2>
+      <code>
+        net start mysql
+      </code>
+      <h2>停止进程</h2>
+      <code>
+        net stop mysql
+      </code>
+      <h2>登入</h2>
+      <code>
+          # 如果可以没有密码登入
+          mysql -uroot --skip-password
+          # 否则
+          mysql -uroot -p
+          # 接着根据提示输入密码
+      </code>
+      <h2>修改密码</h2>
+      <code>
+        alter user root@localhost identified with mysql_native_password by 'password';
+      </code>
+      <h2>打印数据库名称</h2>
+      <code>
+        show databases;
+      </code>
+      <h2>
+        退出
+      </h2>
+      <code>
+        quit;
+        exit;
+      </code>
+    </div>
+    <div class="footer">
+
+    </div>
+  </body>
+</html>
