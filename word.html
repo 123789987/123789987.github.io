@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="UTF-8">	
+  <script>
+function myFunction() {
+ var arr1=["abolish","academic","academically","accessibility","accessible","accuracy","accustomed","advancement","advertiser","analysis","anonymously","appropriately","assertive","assertive","athlete","athletic","authority","available","average","bias","biological","blog","broadcast","browser","cautious","chore","circumstances","collaborate","colleague","collective","combination","comics","commercial","community","community","comparison","competitive","complexity","computerize","concentration","concept","conform","conformity","connection","consequence","consequently","consideration","consistently","constant","controversial","conversational","counseling","currency","cyberbullying","cyberspace","decline","define","definition","deliver","dependent","detection","deter","deterrence","deterrent","deviance","deviant","digital","digital","directory","disapproval","discourage","distraction","dominant","dominant","download","dutiful","economic","educational","educator","efficient","eliminate","embarrassed","embarrassing","emotional","emphasize","encyclopedia","enforce","enforcement","enforcement","enhance","entertainment","environment","equation","estimate","exaggerate","expectation","explosive","explosive","extensively","external","feminine","forensics","generation","guilty","harass","historically","homicide","hostile","identification","identify","imitate","immediate","impact","impose","imposition","imprisonment","inaccessible","incapacitation","incarceration","increasingly","independent","industrialize","inequality","initial","instantly","integrate","intelligence","intense","interactive","interactive","internal","interpersonal","invasion","invisible","isolate","journalist","librarian","likelihood","literacy","majority","masculine","massive","mathematical","mature","mechanical","medium","military","multitask","muscular","navigate","negative","neutral","norm","occur","offender","opponent","opposite","ordinary","original","overwhelming","overwhelming","partial","participate","participate","participation","participation","participation","particular","penalty","perceive","percentage","performance","permission","perspective","pervasive","portray","preceding","predictable","preschool","presidential","prevention","preventive","privilege","privilege","probation","prohibit","promote","property","prosecute","prosecution","protectiveness","punitive","ratio","rehabilitation","reinforce","relatively","reliable","reliable","rely","resources","restaurant","retribution","retrieve","reveal","revolutionary","rough","rumor","saliva","scientific","self-esteem","severity","shipment","shoplift","significant","socialization","socialize","sociologist","sociology","stereotype","strategy","submissive","sufficient","supervision","surprisingly","survey","suspect","tease","tissue","traditionally","transfer","transfer","transform","ultimate","uncontrollable","undoubtedly","unintentional","various","victim","visible"];
+ var arr2=["废除","学术的","学术上","无障碍","无障碍","准确性","习惯","进步","广告","分析","匿名","适当","断言的","断言的","运动员","运动","权威","可用","平均","偏压","生物","博客","广播","浏览器","谨慎","苦差事","情况","合作","同事","集体","组合","漫画","商业","社区","社区","比较","竞争的","复杂","计算机化","浓度","概念","符合","一致性","连接","后果","所以","考虑","一贯","不变","争议","对话","辅导","货币","网络欺凌","赛博","下降","限定","定义","交付","依赖","检测","阻止","威慑","威慑","越轨","异常","数字","数字","目录","不赞成","不鼓励","娱乐","分心优势","优势","下载","孝子","经济","教育","教育家","高效","消除","尴尬","尴尬","情感","注重","百科全书","执行","执法","执法","提高","娱乐","环境","方程","估计","夸大","期望","爆炸","爆炸","广泛","外部","女性","取证","代","有罪","骚扰","历史","杀人","敌对","鉴定","识别","模拟","即时","冲击","强加","征收","监禁","人迹罕至","失能","嵌顿","日益","独立","工业化","不等式","初始","即刻","整合","情报","激烈","互动","互动","内部","人际","侵入","无形","隔离","记者","馆员","可能性","识字","多数","男性","海量","数学","成熟","机械","介质","军事","多任务","肌肉","导航","负","中性","规范","发生","罪犯","对手","相反","普通","原版的","压倒","压倒","部分","参加","参加","参与","参与","参与","特定","罚款","感知","百分比","性能","允许","透视","无孔不入","写真","前","可预测的","学龄前","总统","预防","预防","特权","特权","缓刑","禁止","促进","属性","起诉","起诉","保护性","惩罚性","比","复原","加强","相对","可靠","可靠","依靠","资源","餐厅","报应","检索","揭示","革命性","粗","谣言","唾液","科学","自尊","严重性","装船","入店行窃","重大","社会化","社交","社会学家","社会学","刻板印象","战略","顺从","足够","监管","出奇","调查","疑似","逗","组织","传统","传递","传递","转变","最终","不可控","无疑","无意","各种","受害者","可见"];
+ var value = document.getElementById("txt").value;
+ var str="";
+ var num=0;
+ for(var i=0;i<arr1.length;i++){
+  var pa=1;
+  for(var k=0;k<value.length;k++){
+   if(arr1[i][k]==value[k])
+    pa=pa*1;
+   else pa=0;
+  }
+  if(value.length==0)
+   pa=0;
+   if(pa==1){
+    num++;
+    str=str+"<p>-----"+arr1[i]+"-----"+arr2[i]+"</p>";
+   }
+   var numstr = "-----"+num+"-----";
+ }
+ x = document.getElementById("demo");
+ x.innerHTML = str;
+ x = document.getElementById("num");
+ x.innerHTML = numstr;
+}
+  </script>
+ </head>
+ <body>
+  <input id="txt" style="width:128px; height:64px;"/>
+  <br />
+  <button onclick="myFunction()" style="height:64px;">search</button>
+  <p id="num"></p>
+  <p id="demo"></p>
+  <h1>-----*****-----</h1>
+  <p id="all"></p>
+  <script>
+var arr1=["abolish","academic","academically","accessibility","accessible","accuracy","accustomed","advancement","advertiser","analysis","anonymously","appropriately","assertive","assertive","athlete","athletic","authority","available","average","bias","biological","blog","broadcast","browser","cautious","chore","circumstances","collaborate","colleague","collective","combination","comics","commercial","community","community","comparison","competitive","complexity","computerize","concentration","concept","conform","conformity","connection","consequence","consequently","consideration","consistently","constant","controversial","conversational","counseling","currency","cyberbullying","cyberspace","decline","define","definition","deliver","dependent","detection","deter","deterrence","deterrent","deviance","deviant","digital","digital","directory","disapproval","discourage","distraction","dominant","dominant","download","dutiful","economic","educational","educator","efficient","eliminate","embarrassed","embarrassing","emotional","emphasize","encyclopedia","enforce","enforcement","enforcement","enhance","entertainment","environment","equation","estimate","exaggerate","expectation","explosive","explosive","extensively","external","feminine","forensics","generation","guilty","harass","historically","homicide","hostile","identification","identify","imitate","immediate","impact","impose","imposition","imprisonment","inaccessible","incapacitation","incarceration","increasingly","independent","industrialize","inequality","initial","instantly","integrate","intelligence","intense","interactive","interactive","internal","interpersonal","invasion","invisible","isolate","journalist","librarian","likelihood","literacy","majority","masculine","massive","mathematical","mature","mechanical","medium","military","multitask","muscular","navigate","negative","neutral","norm","occur","offender","opponent","opposite","ordinary","original","overwhelming","overwhelming","partial","participate","participate","participation","participation","participation","particular","penalty","perceive","percentage","performance","permission","perspective","pervasive","portray","preceding","predictable","preschool","presidential","prevention","preventive","privilege","privilege","probation","prohibit","promote","property","prosecute","prosecution","protectiveness","punitive","ratio","rehabilitation","reinforce","relatively","reliable","reliable","rely","resources","restaurant","retribution","retrieve","reveal","revolutionary","rough","rumor","saliva","scientific","self-esteem","severity","shipment","shoplift","significant","socialization","socialize","sociologist","sociology","stereotype","strategy","submissive","sufficient","supervision","surprisingly","survey","suspect","tease","tissue","traditionally","transfer","transfer","transform","ultimate","uncontrollable","undoubtedly","unintentional","various","victim","visible"];
+var arr2=["废除","学术的","学术上","无障碍","无障碍","准确性","习惯","进步","广告","分析","匿名","适当","断言的","断言的","运动员","运动","权威","可用","平均","偏压","生物","博客","广播","浏览器","谨慎","苦差事","情况","合作","同事","集体","组合","漫画","商业","社区","社区","比较","竞争的","复杂","计算机化","浓度","概念","符合","一致性","连接","后果","所以","考虑","一贯","不变","争议","对话","辅导","货币","网络欺凌","赛博","下降","限定","定义","交付","依赖","检测","阻止","威慑","威慑","越轨","异常","数字","数字","目录","不赞成","不鼓励","娱乐","分心优势","优势","下载","孝子","经济","教育","教育家","高效","消除","尴尬","尴尬","情感","注重","百科全书","执行","执法","执法","提高","娱乐","环境","方程","估计","夸大","期望","爆炸","爆炸","广泛","外部","女性","取证","代","有罪","骚扰","历史","杀人","敌对","鉴定","识别","模拟","即时","冲击","强加","征收","监禁","人迹罕至","失能","嵌顿","日益","独立","工业化","不等式","初始","即刻","整合","情报","激烈","互动","互动","内部","人际","侵入","无形","隔离","记者","馆员","可能性","识字","多数","男性","海量","数学","成熟","机械","介质","军事","多任务","肌肉","导航","负","中性","规范","发生","罪犯","对手","相反","普通","原版的","压倒","压倒","部分","参加","参加","参与","参与","参与","特定","罚款","感知","百分比","性能","允许","透视","无孔不入","写真","前","可预测的","学龄前","总统","预防","预防","特权","特权","缓刑","禁止","促进","属性","起诉","起诉","保护性","惩罚性","比","复原","加强","相对","可靠","可靠","依靠","资源","餐厅","报应","检索","揭示","革命性","粗","谣言","唾液","科学","自尊","严重性","装船","入店行窃","重大","社会化","社交","社会学家","社会学","刻板印象","战略","顺从","足够","监管","出奇","调查","疑似","逗","组织","传统","传递","传递","转变","最终","不可控","无疑","无意","各种","受害者","可见"];
+var allstr="";
+for(var i=0;i<arr1.length;i++){
+ allstr=allstr+"<p>"+arr1[i]+"-----"+arr2[i]+"</p>";
+}
+x = document.getElementById("all");
+x.innerHTML = allstr;
+  </script>
+ </body>
+</html>
